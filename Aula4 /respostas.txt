@@ -1,0 +1,18 @@
+﻿O que é classe coesa?
+
+Uma classe coesa é aquela que possui uma única responsabilidade. Ou seja, ela não toma conta de mais de um conceito no sistema. Se a classe é responsável por representar uma Nota Fiscal, ela representa apenas isso. As responsabilidades de uma Fatura, por exemplo, estarão em outra classe.
+
+
+
+Como fazer para detectar classes não coesas?
+
+Verificar se a classe possui muitas linhas de códigos, se há repetição, se os métodos são de responsabilidade das classe.
+
+
+
+O que fazer com classes não coesas?
+Refatorar as classes, criar outras classes separando cada responsabilidade para a classe correta, criar métodos privados quando necessário, um pouco de encapsulamento, etc.
+
+
+
+
